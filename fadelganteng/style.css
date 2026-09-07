@@ -35,7 +35,7 @@ body {
 }
 
 .header-title h1 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .header-tagline {
@@ -44,10 +44,10 @@ body {
   padding: 8px 15px;
   border-radius: 20px;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
-/* Card Grid Layout */
+/* Grid Layout */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
@@ -55,7 +55,7 @@ body {
   margin-bottom: 25px;
 }
 
-/* Individual Card Styling */
+/* Card Styling */
 .vsepr-card {
   border: 2px solid #ccc;
   border-radius: 10px;
@@ -68,7 +68,7 @@ body {
 
 .vsepr-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .card-header {
@@ -80,20 +80,20 @@ body {
 }
 
 .card-num {
-  background: rgba(0,0,0,0.2);
-  width: 26px;
-  height: 26px;
+  background: rgba(0, 0, 0, 0.25);
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 8px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .card-title {
   flex-grow: 1;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .card-formula {
@@ -121,24 +121,25 @@ body {
   border-radius: 4px;
 }
 
-.img-placeholder {
-  width: 100px;
-  height: 90px;
-  background: #e0e0e0;
-  border-radius: 6px;
+.molecule-container {
+  width: 100%;
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.75rem;
-  color: #666;
   margin-bottom: 8px;
-  text-align: center;
+}
+
+.molecule-svg {
+  width: 100%;
+  height: 100%;
+  max-height: 110px;
 }
 
 .card-atoms {
   font-size: 0.75rem;
   color: #555;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   text-align: center;
 }
 
@@ -158,7 +159,7 @@ body {
   width: 100%;
 }
 
-/* Info Section Bawah */
+/* Info Section */
 .info-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -174,19 +175,22 @@ body {
 }
 
 .info-box h3 {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #003366;
   margin-bottom: 10px;
   border-bottom: 2px solid #003366;
   padding-bottom: 4px;
 }
 
-/* AXE Box */
 .axe-details {
   font-size: 0.8rem;
   margin-bottom: 10px;
 }
-.axe-item { margin-bottom: 4px; }
+
+.axe-item {
+  margin-bottom: 4px;
+}
+
 .axe-example {
   background: #eef6ff;
   padding: 8px;
@@ -194,7 +198,11 @@ body {
   font-size: 0.8rem;
   margin-bottom: 8px;
 }
-.axe-example ul { margin-left: 20px; }
+
+.axe-example ul {
+  margin-left: 20px;
+}
+
 .axe-remember {
   background: #fffae6;
   border: 1px solid #ffe58f;
@@ -205,24 +213,24 @@ body {
   border-radius: 4px;
 }
 
-/* Summary Box */
 .summary-box ul {
   font-size: 0.8rem;
   margin-left: 18px;
   line-height: 1.5;
 }
 
-/* Color Legend */
 .legend-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6px;
   font-size: 0.8rem;
 }
+
 .legend-item {
   display: flex;
   align-items: center;
 }
+
 .color-dot {
   width: 12px;
   height: 12px;
