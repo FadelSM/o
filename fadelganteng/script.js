@@ -194,8 +194,7 @@ const vseprData = [
             <circle cx="50" cy="12" r="9" fill="#66cc66" stroke="#4a4" stroke-width="1.5" />
             <circle cx="50" cy="88" r="9" fill="#66cc66" stroke="#4a4" stroke-width="1.5" />
             <circle cx="15" cy="50" r="9" fill="#66cc66" stroke="#4a4" stroke-width="1.5" />
-            <text x="34" y="38" font-size="8" font-weight="bold">90°</text>
-            <text x="34" y="70" font-size="8" font-weight="bold">180°</text>
+            <text x="34" y="38" font-size="8" font-weight="bold">&lt; 90°</text>
           </svg>`
   },
   {
@@ -268,6 +267,7 @@ const vseprData = [
             <circle cx="80" cy="33" r="7" fill="#a3e0a3" stroke="#4a4" stroke-width="1" />
             <circle cx="57" cy="82" r="8" fill="#66cc66" stroke="#4a4" stroke-width="1.5" />
             <circle cx="22" cy="24" r="8" fill="#66cc66" stroke="#4a4" stroke-width="1.5" />
+            <text x="64" y="38" font-size="8" font-weight="bold">&lt; 90°</text>
           </svg>`
   },
   {
